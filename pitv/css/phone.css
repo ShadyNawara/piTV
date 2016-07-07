@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+@media (max-width: 650px) {
+    .videobar {
+        margin-top: 25%;
+    }
+    .playbtntext {
+        display: none;
+    }
+}
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Roboto;
+    background: #C93F45;
+     -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+#wrapper {
+    margin: 0 auto;
+}
+.videobar {
+    margin-top: 10px;
+    text-align: center;
+}
+.urltext {
+    font-size: 25pt;
+    width: 60%;
+    padding: 10px;
+    color: #555;
+}
+.playvideobtn {
+    overflow: hidden;
+    font-size: 26pt;
+    margin-left: 10px;
+    background: #31A343;
+    padding: 8px 20px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.7);
+    cursor: pointer;
+    color: #333;
+    transition: background-color 100ms linear;
+}
+.mediaitem {
+    width: 40%;
+    margin: 0 5%;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+    font-size: 25pt;
+    border-radius: 50px;
+    color: #555;
+    transition: background-color 100ms linear;
+}
+.circlemenu {
+    text-align: center;
+    padding-top: 10px;
+}
+.videosent,
+.videoerror {
+    width: 100%;
+    background: #00cc00;
+    box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.75);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25pt;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.videoerror {
+    background: #FF0000;
+}
