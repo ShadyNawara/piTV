@@ -13,3 +13,4 @@ rm -r kweb-1.7.2.tar.gz master.zip piTV-master youtube-dl pitv.zip
 sed -i '$ d' /etc/rc.local
 echo "sudo sh /home/pi/pitv/startup.sh" >> /etc/rc.local
 echo "exit 0" >> /etc/rc.local
+reboot
