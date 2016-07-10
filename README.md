@@ -5,7 +5,7 @@ It sure lacks some of the chromecast's functionalites but it gives the option to
 The ios app enables you to send video links from most apps as well as offer simple media controlling options
 
 
-This software isn't perfect and is not built for security what so ever all text and pin is transfered and stored in plain text.
+This software isn't perfect and is not built for security what so ever all text and pin is transferred and stored in plain text.
 
 i have tested this on a raspberry pi 3 running rasbian jessie
 
