@@ -12,7 +12,7 @@ cd kweb-1.7.2
 ./debinstall
 wget https://github.com/shandoosheri/piTV/archive/master.zip -O pitv.zip
 unzip pitv.zip
-mv piTV-master/pitv /home/pi/pitv
+mv piTV-master/pitv /home/pi/
 sed -i '$ d' /etc/rc.local
 echo "sudo sh /home/pi/pitv/startup.sh" >> /etc/rc.local
 echo "exit 0" >> /etc/rc.local
