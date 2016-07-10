@@ -15,4 +15,8 @@ mv piTV-master/pitv /home/pi/
 sed -i '$ d' /etc/rc.local
 echo "sudo sh /home/pi/pitv/startup.sh" >> /etc/rc.local
 echo "exit 0" >> /etc/rc.local
+
+echo Enter your location Woeid to get weather updates
+read woeid
+echo woeid > '/home/pi/pitv/scripts/weather.txt'
 reboot
