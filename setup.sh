@@ -1,4 +1,5 @@
 #!/bin/sh
+apt-get update
 apt-get install xterm tint2 omxplayer php5-fpm php5 wget xdotool openbox unclutter xinit -y
 ginstall-ytdl
 echo "allowed_users=anybody" > '/etc/X11/Xwrapper.config'
