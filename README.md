@@ -1,4 +1,7 @@
 # piTV
+
+[![ios app on the App store](https://raw.githubusercontent.com/shandoosheri/piTV/master/pitv/images/appstore.jpg)](https://itunes.apple.com/us/app/pitv-remote/id1132014654?ls=1&mt=8)
+
 piTV gives your raspberry pi functionallities similar to that of a chromecast. 
 It sure lacks some of the chromecast's functionalites but it gives the option to setup a pin to control it 
 
