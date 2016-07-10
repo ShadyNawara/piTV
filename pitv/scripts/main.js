@@ -1,5 +1,9 @@
 var bgarray = [];
+var woeid = "2459115";
 $(function () {
+    $.get('scripts/weather.txt', function (response) {
+        woeid = response;
+    });
     //calling getweather and get backgrounds functions and setting an interval to repeat them later
     getweather();
     getbackgrounds();
@@ -82,7 +86,7 @@ function shufflearray(array) {
 // getting weather data from simple weather
 function getweather() {
     $.simpleWeather({
-        woeid: '12782174',
+        woeid: woeid,
         unit: 'f',
         success: function (weather) {
             html = '<h2><i class="icon-' + weather.code + '"></i> <span class="weatherdig">' + weather.temp + '&deg;' + weather.units.temp + '</span></h2>';
