@@ -6,3 +6,9 @@ The ios app enables you to send video links from most apps as well as offer simp
 
 
 This software isn't perfect and is not built for security what so ever all text and pin is transfered and stored in plain text.
+
+i have tested this on a raspberry pi 3 running rasbian jessie
+
+to install simply run
+
+`wget https://raw.githubusercontent.com/shandoosheri/piTV/master/setup.sh && sudo sh setup.sh`
